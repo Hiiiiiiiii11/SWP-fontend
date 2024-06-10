@@ -1,0 +1,81 @@
+
+
+.signup-container {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-image: url('https://png.pngtree.com/background/20231016/original/pngtree-radiant-gold-diamonds-set-against-a-sleek-grey-background-in-3d-picture-image_5577461.jpg');
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.signup-form {
+  height: 600px;
+  width: 540px;
+  padding: 20px;
+  background-color: rgb(231, 243, 245);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.signup-form h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007BFF;
+  padding: 50px auto;
+}
+
+.form-group {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 25px;
+  color: #840a0a;
+}
+
+.form-group input {
+  font-size: 25px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #4a331c;
+}
+
+.signup-button {
+  margin-top: 30px;
+  font-size: 30px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+.back{
+  text-align: right;
+  font-size: 25px;
+  
+}
+.back-to-home{
+  color: #007bff;
+  text-decoration: none;
+}
+.back-to-home:hover{
+  background-color: #fffcfc;
+
+}

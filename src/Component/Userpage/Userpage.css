@@ -1,0 +1,252 @@
+.Userpage {
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+    background-color: #a7caef;
+    background-image: none;
+    width: 100%;
+  }
+  .header{
+    width: 100%;
+  }
+  .Order-button a {
+    background-color: #c43d0c; /* màu nền */
+    color: white; /* màu chữ */
+    padding: 10px; /* padding trên dưới và trái phải */
+    font-size: 30px; /* kích thước chữ */
+    text-decoration: none; /* không gạch chân */
+    border-radius: 15px;
+    margin-right: 100px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .Order-button a:hover {
+    background-color: #f5d8a7;
+  }
+
+  .user-icon{
+    font-size: 50px;
+    justify-content: flex-end;
+    padding-right: 50px;
+    color:#00244b;
+  }
+  .user-name{
+    font-size: 25px;
+  }
+  
+  .nav {
+    margin-top: 20px;
+    background-color: #fdf1dc;
+    padding: 10px 0;
+  }
+  .container {
+    min-height: 5vh;
+    overflow: hidden;
+  }
+  .nav-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .logo {
+    color: #840a0a;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #efeeee; /* Tạo khung cho logo */
+    padding: 5px; /* Tạo không gian xung quanh logo */
+    background-color: #fff;
+    border-radius: 10px; /* Tô màu trắng cho logo */
+    margin-left: 100px;
+    overflow: hidden;
+    
+  }
+  
+  .nav-link li {
+    margin-right: 50px;
+    display: inline-flex;
+  }
+  .nav-link li a:hover{
+    background-color: #ffffff;
+  }
+  .nav-link li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background-color: #fdf1dc;
+    font-size: 28px;
+    color: #ae06a5;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .container-2{
+    margin-top:30px;
+    min-height: 100vh;
+    min-width: 100%; /* 100% chiều cao của viewport */
+    overflow: auto; /* cho phép cuộn nếu nội dung vượt quá chiều cao tối thiểu */
+  }
+  .container-3{
+    background-image:url('https://img.freepik.com/free-vector/crystal-textured-background-illustration_53876-80626.jpg');
+    margin-top:30px;
+    min-height: 70vh;
+    min-width: 100%; /* 100% chiều cao của viewport */
+    overflow: auto;
+  }
+  
+  .slide-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide-1 img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  @keyframes slide-1 {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .slide-1:nth-child(1) {
+    animation: slide 12s 0s infinite;
+  }
+  
+  .slide-1:nth-child(2) {
+    animation: slide 12s 6s infinite;
+  }
+  .Order-form {
+   
+    height: 600px;
+    width: 540px;
+    padding: 20px 20px;
+    background-color: rgb(231, 243, 245);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+   
+    margin:50px auto;
+    
+  }
+  .Order-form h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+    padding: 50px auto;
+  }
+  .group {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .group label {
+    font-size: 25px;
+    color: #840a0a;
+  }
+  .group input {
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #4a331c;
+  }
+  .order-button button {
+    font-size: 30px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  }
+  .order-button button:hover{
+    background-color: #a7caef;
+  }
+  .lookup-table {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('https://img.freepik.com/free-vector/low-poly-abstract_1048-8068.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1707091200&semt=ais');
+    border: 80px solid #ddeaf3;
+  }
+  
+  .Table {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-shadow: 2px 2px 2px rgba(86, 84, 103, 0.2);
+    text-align: center;
+    color: rgb(152, 53, 0);
+    margin-bottom: 100px;
+  }
+  
+  .table1 {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: rgb(142, 75, 0);
+  }
+  
+  .table1 label {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 30px;
+  }
+  
+  .table1 label input {
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    color: #2c78c9;
+    margin: 20px;
+    background-color: #f5fafc;
+    border-radius: 5px;
+    border:1px solid rgb(63, 63, 63);
+  }
+  .table1 button{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+    color:#110f0b;
+    background-color: #d1b200;
+
+  }
+  .table1 button:hover{
+    background-color: #c3c3c3;
+    
+  }
+
+
+  .container-5 {
+    background-color: #c3c3c3;
+  }
+  
+  .contact-info label {
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(102, 91, 91);
+    font-size: 25px;
+    margin-left: 250px; /* Đặt không gian đều giữa các thành phần con */
+  }
+  
+  .contact-logo a {
+    color: rgb(226, 100, 10);
+    border: none;
+    background-color: #c3c3c3;
+    margin-left: 100px;
+    font-size: 100px;
+  }
+  
+ 
