@@ -1,8 +1,10 @@
 .Userpage {
+  position: absolute;
     font-family: 'Times New Roman', Times, serif, Courier, monospace;
     background-color: #a7caef;
     background-image: none;
     width: 100%;
+    overflow: hidden;
   }
   .header{
     width: 100%;
@@ -22,12 +24,15 @@
     background-color: #f5d8a7;
   }
 
-  .user-icon{
+  .user-icon button{
+    background-color:#fdf1dc;
     font-size: 50px;
-    justify-content: flex-end;
-    padding-right: 50px;
-    color:#00244b;
+    border: none;
+    margin-right: 100px;
+
   }
+ 
+  
   .user-name{
     font-size: 25px;
   }

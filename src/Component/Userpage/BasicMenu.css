@@ -1,0 +1,12 @@
+/* BasicMenu.css */
+.menu-click .MuiMenuItem-root {
+    font-size: 16px; /* Adjust the font size */
+    padding: 10px 20px; /* Adjust padding to change the size */
+    transition: background-color 0.3s ease;
+    color: rgb(39, 72, 72); /* Smooth transition for hover effect */
+  }
+  
+  .menu-click .MuiMenuItem-root:hover {
+    background-color: #f0f0f0; /* Change the hover background color */
+  }
+  

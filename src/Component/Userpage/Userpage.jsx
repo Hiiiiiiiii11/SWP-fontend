@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdDiamond, MdPhone, MdEmail, MdLocationOn, MdLock, MdSearch,MdPerson ,MdAddCard } from "react-icons/md";
 import './Userpage.css';
+import BasicMenu from './BasicMenu';
 
 function Userpage() {
 
@@ -20,8 +21,10 @@ function Userpage() {
             <div className='Order-button'>
               <a href='/'>Đặt lịch hẹn</a>
             </div>
-            <div className='user-icon'><MdPerson/>
-            
+            <div className='user-icon'>
+            <button type="click" >
+               <BasicMenu />
+            </button>
             </div>
             
           </div>
