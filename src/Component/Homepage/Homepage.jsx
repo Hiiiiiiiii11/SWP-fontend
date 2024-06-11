@@ -42,13 +42,13 @@ function Homepage() {
             <div className='table1'>
               <label>
                 Phone Number:
-                <input type="phone" name="phone" placeholder="Enter phone number" style={{ width: '300px', height: '40px', fontSize: '20px', color: '#2c78c9' }} />
+                <input type="phone" name="phone" placeholder="Enter phone number"  />
               </label>
               <label>
                 Receipt Number:
-                <input type="text" name="receipt" placeholder="Enter receipt number" style={{ width: '300px', height: '40px', fontSize: '20px', color: '#2c78c9' }} />
+                <input type="text" name="receipt" placeholder="Enter receipt number"  />
               </label>
-              <button type="submit" style={{ width: '55px', height: '55px', color: '#2c78c9', background: '#f5d8a7', borderRadius: '5px', cursor: 'pointer' }}>
+              <button type="submit" >
                 <MdSearch />
               </button>
             </div>

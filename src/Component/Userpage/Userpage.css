@@ -1,14 +1,12 @@
 .Userpage {
-  position: absolute;
+    
     font-family: 'Times New Roman', Times, serif, Courier, monospace;
     background-color: #a7caef;
     background-image: none;
     width: 100%;
     overflow: hidden;
   }
-  .header{
-    width: 100%;
-  }
+  
   .Order-button a {
     background-color: #c43d0c; /* màu nền */
     color: white; /* màu chữ */
@@ -28,10 +26,15 @@
     background-color:#fdf1dc;
     font-size: 50px;
     border: none;
-    margin-right: 100px;
+    margin-right: 50px;
 
   }
- 
+  .user-icon{
+    font-size: 20px;
+    Color:rgb(39, 39, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
   
   .user-name{
     font-size: 25px;
@@ -43,6 +46,7 @@
     padding: 10px 0;
   }
   .container {
+    position: relative;
     min-height: 5vh;
     overflow: hidden;
   }
@@ -88,12 +92,14 @@
   }
   
   .container-2{
+    
     margin-top:30px;
     min-height: 100vh;
     min-width: 100%; /* 100% chiều cao của viewport */
     overflow: auto; /* cho phép cuộn nếu nội dung vượt quá chiều cao tối thiểu */
   }
   .container-3{
+    
     background-image:url('https://img.freepik.com/free-vector/crystal-textured-background-illustration_53876-80626.jpg');
     margin-top:30px;
     min-height: 70vh;
@@ -229,6 +235,7 @@
   }
   .table1 button:hover{
     background-color: #c3c3c3;
+    overflow: auto;
     
   }
 

@@ -41,6 +41,7 @@ export default function BasicMenu() {
         <div className='menu-click'>
         <MenuItem onClick={handleClose}>Profile</MenuItem>
         <MenuItem onClick={handleClose}>My account</MenuItem>
+        <MenuItem onClick={handleClose}>My Request</MenuItem>
         <MenuItem onClick={handleClose}>Logout</MenuItem>
         </div>
       </Menu>

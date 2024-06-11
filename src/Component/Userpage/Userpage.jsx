@@ -21,7 +21,7 @@ function Userpage() {
             <div className='Order-button'>
               <a href='/'>Đặt lịch hẹn</a>
             </div>
-            <div className='user-icon'>
+            <div className='user-icon'>Your Account
             <button type="click" >
                <BasicMenu />
             </button>
