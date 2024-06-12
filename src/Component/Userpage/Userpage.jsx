@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdDiamond, MdPhone, MdEmail, MdLocationOn, MdLock, MdSearch,MdPerson ,MdAddCard } from "react-icons/md";
+import { MdDiamond, MdPhone, MdEmail, MdLocationOn, MdLock, MdSearch,MdPerson ,MdCardMembership } from "react-icons/md";
 import './Userpage.css';
 import BasicMenu from './BasicMenu';
 
@@ -19,7 +19,7 @@ function Userpage() {
               <li><a href="/">LOOK UP</a></li>
             </div>
             <div className='Order-button'>
-              <a href='/'>Đặt lịch hẹn</a>
+              <a href='/'>Make Appointment</a>
             </div>
             <div className='user-icon'>Your Account
             <button type="click" >
@@ -47,7 +47,7 @@ function Userpage() {
       <body>
         <div className='container-3'>
       <form className="Order-form">
-        <h2>Đặt lịch hẹn</h2>
+        <h2>Make Appointment</h2>
         <div className="group">
           <label htmlFor="Name"> <MdPerson/>Customer name</label>
           <input type="text" className="Cusname" placeholder="Enter full name" required />
@@ -57,7 +57,7 @@ function Userpage() {
           <input type="text"  className="Cusphone" placeholder="Enter phone number" required />
         </div>
         <div className="group">
-          <label htmlFor="CMND/CCCD"><MdAddCard/> ID card</label>
+          <label htmlFor="CMND/CCCD"><MdCardMembership/> ID card</label>
           <input type="text"  className="CusID" placeholder="Enter ID number" required />
         </div>
         <div className="group">
@@ -66,7 +66,7 @@ function Userpage() {
         </div>
 
         <div className='order-button'>
-        <button type="submit" >Đặt lịch hẹn</button>
+        <button type="submit" >Make Appointment</button>
         </div> 
         </form>
         </div>

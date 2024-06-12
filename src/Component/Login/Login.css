@@ -66,6 +66,12 @@
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+.div-9{
+font-size: 25px;
+color: #007BFF;
+margin-top: 10px;
+text-align: right;
+}
 
 .div-13 {
   font-size: 25px;
@@ -76,6 +82,7 @@
   background-color: #007BFF;
   color: white;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 .div-13:hover {
